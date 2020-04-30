@@ -1,0 +1,19 @@
+    // Application that handles new customer bank account requests.
+
+    // Read a .csv file - names, social security number SSN, account type, initial deposit
+
+    // Figure out a proper data structure to hold all this accounts
+
+    // Methods for BOTH accounts: deposit(), withdraw(), transfer(), showInfo()
+    // 11-Digit Account Number: creation process: 1 for Savings, 2 for Checking, last 2 digits of SSN,
+    // 5 unique digits, and random 3 digits.
+
+    // SAVING Account - create 3 digit number for Safety Deposit Box and 4 digit code to access it
+
+    // CHECKING Account 12 digit number for Debit Card and 4 digit PIN
+
+    // BOTH Accounts inherit from interface that determines the base interest rate
+    // SAVING Account uses 0.25 points less than the base rate
+    // CHECKING Account uses 15% of the base rate
+
+    // ShowInfo method reveal relevant account info and specific to the account type
